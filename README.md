@@ -48,7 +48,14 @@ let templateProductItem = document.getElementById('product-template').innerHTML,
         $('#list-products').append(html); // помещаем в модалку
 ```
 
-В шаблонизаторе используется плейсхолдер такого типа <%= id %> - это место для переменной id
+В шаблонизаторе используется плейсхолдер такого типа: 
+   <%= id %> - это место для переменной id, 
+   <%= name %> - название товара,
+   <%= img %>  - изображение,
+   <%= qrt %>  - количество едениц,
+   <%= price %> - цена за единицу
+   
+   
 
 ```html
 <!-- HTML template for products -->
